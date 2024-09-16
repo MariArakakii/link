@@ -71,12 +71,18 @@ body {
 }
 
 .qrcode {
-    position: relative;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    padding: 20px; /* 17px */
-    /* transition: all .25s cubic-bezier(.08, .59, .29, .99); */
+    font-family: sans-serif;
+    text-rendering: optimizeLegibility;
+    box-sizing: border-box;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 240px;
+    background: rgb(26, 46, 89);
+    border-radius: 8px;
+    overflow: hidden;
     }
 
 @media (hover: hover) {
