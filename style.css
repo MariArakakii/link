@@ -72,8 +72,6 @@ body {
 
 .qrcode {
     position: relative;
-    font-size: 1rem;
-    display: block;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
