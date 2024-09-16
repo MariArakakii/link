@@ -73,13 +73,11 @@ body {
 .qrcode {
     position: relative;
     font-size: 1rem;
-    text-align: center;
     display: block;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
     padding: 20px; /* 17px */
-    text-decoration: none;
     /* transition: all .25s cubic-bezier(.08, .59, .29, .99); */
     }
 
