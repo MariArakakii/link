@@ -72,7 +72,6 @@ body {
 
 .qrcode {
     position: relative;
-    border: solid var(--accentColor) 2px;
     border-radius: 10px;
     font-size: 1rem;
     text-align: center;
