@@ -71,19 +71,15 @@ body {
 }
 
 .qrcode {
-    font-family: sans-serif;
-    text-rendering: optimizeLegibility;
-    box-sizing: border-box;
-    float: left;
-    display: flex;
-    flex-direction: column;
-    -webkit-box-align: center;
-    align-items: center;
-    width: 240px;
-    background-color: transparent;
-    border-radius: 8px;
-    overflow: hidden;
-    }
+    position: relative;
+    padding-bottom: 20px;
+    color: var(--accentColor);
+    font-size: 1rem;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+}
 
 @media (hover: hover) {
     .link:hover {
