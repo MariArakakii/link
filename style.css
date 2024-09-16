@@ -80,7 +80,7 @@ body {
     -webkit-box-align: center;
     align-items: center;
     width: 240px;
-    background: rgb(26, 46, 89);
+    background-color: transparent;
     border-radius: 8px;
     overflow: hidden;
     }
